@@ -934,6 +934,10 @@ section#about {
     width: 30px;
 }
 
+.cc {
+    color: #667eea;
+}
+
 .contact-item h4 {
     color: #fff;
     margin-bottom: 0.25rem;
@@ -1187,10 +1191,23 @@ main {
         padding: 0 15px;
     }
 
+    .hero-content {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+        top: 100px;
+    }
+
     .hero-title {
         font-size: 1.8rem;
         line-height: 1.1;
         white-space: nowrap;
+    }
+
+    .hero-text {
+        margin-top: 40px;
+        margin-top: 20px;
     }
 
     .section-title {
@@ -1209,6 +1226,12 @@ main {
         padding: 10px 20px;
         font-size: 0.9rem;
         width: 180px;
+    }
+
+    .hero-image {
+        position: relative;
+        left: -22%;
+        top: -100px;
     }
 
     .profile-image {
@@ -1261,6 +1284,14 @@ main {
     section {
         padding: 60px 0;
     }
+
+    .footer {
+        display: none;
+    }
+
+    /* .hero-buttons {
+        display: none;
+    } */
 }
 
 /* Additional Animation Classes */
